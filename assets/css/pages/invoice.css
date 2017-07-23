@@ -1,0 +1,102 @@
+body {
+color: #767676;
+background: #f1f2f7 !important;
+font-family: 'Open Sans',sans-serif;
+padding: 0px !important;
+margin: 0px !important;
+font-size: 13px;
+text-rendering: optimizeLegibility;
+}
+.invoice {
+	color: #767676;
+	font-family: 'Open Sans',sans-serif;
+	font-size: 13px;
+	text-rendering: optimizeLegibility;
+	width: 960px;
+	margin: 0 auto;
+	padding:10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.row {
+ margin-right: 25px !important; 
+ margin-left: 25px !important; 
+}
+
+.table-bordered>thead>tr>th, .table-bordered>thead>tr>td {
+border-bottom-width: 1px;
+}
+
+.invoice-btn{
+	color: #FFFFFF;
+	padding: 2px 12px;
+	font-size: 16px;
+	background-color: #1fb5ad;
+	cursor: pointer;
+}
+.invoice-btn:hover{
+	color: #FFFFFF !important;
+	padding: 2px 12px !important;
+	font-size: 16px !important;
+	background-color: #1fb5ad;
+	cursor: pointer;
+	text-decoration:none
+}
+address {
+margin-top: 5px !important; 
+ margin-bottom: 0px !important; 
+
+}
+.bb{
+	border-bottom: 1px solid black;
+}
+th {text-align:center}
+.page-footer {
+
+height: 25px;
+margin: 0 auto;
+padding-top: 10px;
+border-top: 1px solid #ddd;
+}
+/***
+Invoice page
+***/
+.invoice table {
+  margin:20px 0 20px !important;
+}
+
+.invoice .invoice-logo {
+  margin-bottom:0px;
+}
+
+.invoice .invoice-logo p {
+  padding:5px 0;
+  font-size:26px;
+  line-height:28px;
+  text-align:right;
+}
+
+.invoice .invoice-logo p span {
+  display:block;
+  font-size:14px;
+}
+
+.invoice .invoice-logo-space {
+  margin-bottom:15px;
+}
+
+.invoice .invoice-payment strong {
+  margin-right:5px;
+}
+
+.invoice .invoice-block {
+  text-align:right;
+}
+
+.invoice .invoice-block .amounts {
+  margin-top: 20px;
+  font-size: 14px;
+}
